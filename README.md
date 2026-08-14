@@ -340,9 +340,13 @@ Before submitting any response, mentally check against this list:
 
 <br/>
 
-1. **Copy the Master Prompt** from the expandable section above.
-2. **Paste it as the first message** in any new chat on **Gemini**, **ChatGPT**, or **Claude** (Web & Mobile).
-3. **For IDEs & Local LLMs (Cursor, Windsurf, Ollama, Open-WebUI):** Add the contents of [`AI_WATERMARK_REMOVER_MASTER_SKILL.md`](./AI_WATERMARK_REMOVER_MASTER_SKILL.md) into your `.cursorrules`, system prompt, or Modelfile `SYSTEM` block.
+### Option A: Web AI Platforms (Gemini / ChatGPT / Claude)
+1. Navigate to [gemini.google.com](https://gemini.google.com), [chatgpt.com](https://chatgpt.com), or [claude.ai](https://claude.ai).
+2. Start a fresh chat session.
+3. Paste the **Master Skill** block as your initialization prompt.
+
+### Option B: Developer IDEs & Local LLMs (Cursor, Windsurf, Ollama, Open-WebUI)
+* Add the entire content of [`AI_WATERMARK_REMOVER_MASTER_SKILL.md`](./AI_WATERMARK_REMOVER_MASTER_SKILL.md) into your `.cursorrules`, system prompt file, or Modelfile `SYSTEM` directive.
 
 <div align="center">
 
